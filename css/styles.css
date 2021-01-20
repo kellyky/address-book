@@ -1,0 +1,12 @@
+.form-group {
+  margin: 5px;
+  padding: 5px;
+}
+
+#contactList {
+  display: none;
+}
+
+#existingContacts {
+  display: none;
+}
