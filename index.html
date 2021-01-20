@@ -5,10 +5,53 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
-  <title></title>
+  <title>Address Book</title>
 </head>
 <body>
   <div class="container">
+    <form id="contactList">
+
+    <!-- Name -->
+    <div class="form-group">
+      <label for="firstName">First Name:</label>
+      <input id="firstName" class="form-control" type="text">
+    </div
+
+    <!-- Phone -->
+    <div class="form-group">
+      <label for="lastName">Last Name:</label>
+      <input id="lastName" class="form-control" type="text">
+    </div>
+    <!-- Email -->
+    <div class="form-group">
+      <label for="email">Email address:</label>
+      <input type="email" id="email" pattern=".+@." size=40>
+    </div>
+    <!-- Address: Street -->
+    <div class="form-group">
+      <label for="addressStreet">Street address:</label>
+      <input id="addressStreet" class="form-control" type="text">
+    </div>
+                    
+    <!-- Address: State -->
+    <div class="form-group">
+      <label for="city">City</label>
+      <input id="city" class="form-control" type="text">
+    </div>
+
+    <div class="form-group">
+      <label for="state">State</label>
+      <input id="state" class="form-control" type="text">
+    </div>
+    <!-- Address: Zip -->
+    <div class="form-group">
+      <label for="zip" class="form-control" type="number" size="5">
+    </div>
+    <!-- Birthdate -->
+    <div class="form-group">
+      <label for="born">Date of birth:</label>
+      <input id="born" class="form-control" type="date">
+    </div>
   </div>
 </body>
 </html>
