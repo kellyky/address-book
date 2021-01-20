@@ -1,9 +1,31 @@
-function Contact(firstName, lastName, phoneNumber) {
-  this.firstName = firstName;
-  this.lastName = lastName;
-  this.phoneNumber = phoneNumber;
-}
+// Business Logic
 
-Contact.protoype.fullName = function() {
-  return this.firstName + " " + this.lastName;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// User Interface Logic
+$(document).ready(function() {
+  $("#contacts").click(function() {
+    $("#existingContacts").show();
+  });
+  $("#new").click(function() {
+    $("#contactList").show();
+  });
+});
+
+
+
